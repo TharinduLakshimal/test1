@@ -9,4 +9,8 @@ app.listen(port,()=>{
 
 app.get('/',(req,res)=>{
     res.send("hello");
+
+app.get('/tld',(req,res)=>{
+    res.send("hello");
+
 })
